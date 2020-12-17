@@ -77,5 +77,25 @@ function clicou(){
 }
 
 function redirecionar(){
-    window.open("https://digitalinnovation.one")
+    window.open("https://digitalinnovation.one");
+    //window.location.href = "https://digitalinnovation.one";
+}
+
+function trocar(elemento){
+    elemento.innerHTML = "Obrigada por passar o mouse!";
+    //document.getElementById("mousemove").innerHTML = "Obrigada por passar o mouse!";
+    //alert("trocar texto")
+}
+
+function voltar(elemento){
+    elemento.innerHTML =  "Passe o mouse aqui";
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
 }
