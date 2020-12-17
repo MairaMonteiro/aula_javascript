@@ -40,8 +40,42 @@
 //     alert(count)
 // }
 
-var d = new Date();
-console.log(d.getMonth()+1);
-console.log(d.getDay());
-console.log(d.getHours());
-console.log(d.getUTCDate());
+// var d = new Date();
+// console.log(d.getMonth()+1);
+// console.log(d.getDay());
+// console.log(d.getHours());
+// console.log(d.getUTCDate());
+
+// function soma(n1, n2){
+//     return n1 + n2;
+// }
+
+// function setReplace(frase, nome, novo_nome){
+//     return frase.replace(nome, novo_nome);
+// }
+
+// alert(soma(5, 10))
+// alert(setReplace("Vai Japão", "Japão", "Brasil!"))
+
+// function validarIdade(idade){
+//     var validar;// = true;
+//     if (idade >= 18){
+//         validar = true;
+//     } else {
+//         validar = false;
+//     }
+//     return validar;
+// }
+
+// var idade = prompt("Qual a sua Idade?")
+// console.log(validarIdade(idade))
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML= "<b>Obrigada por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigada por clicar");
+}
+
+function redirecionar(){
+    window.open("https://digitalinnovation.one")
+}
